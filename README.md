@@ -1,2 +1,2 @@
 # JPO
-# Tutaj będę się uczył na JPO
+Tutaj będę się uczył na JPO
