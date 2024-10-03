@@ -1,7 +1,7 @@
 cmake_minimum_required( VERSION 3.6.2 )
 
 # W przypadku nowego projektu wystarczy zmienić tylko jego nazwę w poniższej linii
-set( PROJECT_NAME EmptyPro )
+set( PROJECT_NAME Nauka )
 
 project( ${PROJECT_NAME} )
 
