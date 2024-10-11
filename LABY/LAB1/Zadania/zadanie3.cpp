@@ -9,15 +9,14 @@ int main() {
     int randomNumber = rand() % 100 + 1;
     int yourNumber{};
     cout << "Podaj swoja liczbe: " << endl;
-    cin >> yourNumber;
     do {
+        cin >> yourNumber;
         if(yourNumber>randomNumber){
             cout << "The number is too high"<< endl;
-            cin >> yourNumber;
         }else if(yourNumber<randomNumber){
             cout << "The number is too low"<< endl;
-            cin >> yourNumber;
         }
     }while (randomNumber!=yourNumber);
     cout << "BRAWO!! Udalo Ci sie"<< endl;
+    return 0;
 }

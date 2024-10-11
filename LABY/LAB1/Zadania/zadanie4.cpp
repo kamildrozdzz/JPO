@@ -14,6 +14,6 @@ int main(){
 }
 
 double convert(double tf){
-    double tc=(tf-32)*(5.0/9.0);
+    double tc=(tf-32.0)*(5.0/9.0);
     return tc;
 }
