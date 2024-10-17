@@ -26,9 +26,9 @@ int main(){
     cout << "Reversed word v2: " << word_reverse_v2 << endl;
 
     if((word==word_reverse)&&(word==word_reverse_v2)){
-        cout << "Podane słowo jest palindormem." << endl;
+        cout << "The given word is a palindrome." << endl;
     }else{
-        cout << "Podane słowo nie jest palindromem." << endl;
+        cout << "The given word is not a palindrome." << endl;
     }
     return 0;
 }
