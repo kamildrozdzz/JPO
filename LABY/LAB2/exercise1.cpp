@@ -24,8 +24,8 @@ int main(){
     cin >> cols;
 
     vector<vector<int>> matrix(rows, vector<int>(cols,0));
-    for(int i{0};i<rows;i++){
-        for(int j{0};j<cols;j++){
+    for(int i=0;i<rows;i++){
+        for(int j=0;j<cols;j++){
             matrix[i][j]=rand() % 10;
             cout << matrix[i][j] << " ";
         }
