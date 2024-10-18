@@ -12,7 +12,7 @@ Na poniższej przykładowej macierzy 4x5 liczbami "1" oznaczono szukane liczby -
 
 using std::cout, std::cin, std::endl, std::vector;
 
-int SumColsAndRows(const vector<vector<int>> matrix);
+int sumColsAndRows(const vector<vector<int>> &matrix);
 
 int main(){
     int cols, rows;
@@ -31,15 +31,15 @@ int main(){
         }
         cout << endl;
     }
-    cout << "The sum of elements belonging to even columns or odd rows: " << SumColsAndRows(matrix) << endl;
+    cout << "The sum of elements belonging to even columns or odd rows: " << sumColsAndRows(matrix) << endl;
 }
 
-int SumColsAndRows(const vector<vector<int>> matrix){
+int sumColsAndRows(const vector<vector<int>> &matrix){
     int sum{};
     
     for(int i=0;i<matrix.size();i++){
         for(int j=0;j<matrix[i].size();j++){
-            if(j%2!=0 || i%2!=1){
+            if(j%2==0 || i%2==1){
                 sum += matrix[i][j];
             }
         }
