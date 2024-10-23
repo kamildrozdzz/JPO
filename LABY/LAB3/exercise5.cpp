@@ -9,7 +9,7 @@ int main(){
     circle.setCircleRdaius(10);
     cout << circle.area() << endl;
     cout << "Radius: " << circle.getCircleRadius() << endl;
-    cout << "X: " << circle.getCirclePointX() << " Y: " << circle.getCirclePointY() << endl;
+    cout << "X: " << circle.getCircleXY().getPointX() << " Y: " << circle.getCircleXY().getPointX() << endl;
     circle.setCirclePoints(1.0,5.0);
-    cout << "X: " << circle.getCirclePointX() << " Y: " << circle.getCirclePointY() << endl;
+    cout << "X: " << circle.getCircleXY().getPointX() << " Y: " << circle.getCircleXY().getPointY() << endl;
 }

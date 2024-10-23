@@ -28,11 +28,8 @@ class Circle{
     double getCircleRadius(void){
         return *m_r;
     }
-    double getCirclePointX(void){
-        return m_x_y.getPointX();
-    }
-    double getCirclePointY(void){
-        return m_x_y.getPointY();
+    Point getCircleXY() const{
+        return m_x_y;
     }
     double area(void){
         return (M_PI)* *m_r* *m_r;
