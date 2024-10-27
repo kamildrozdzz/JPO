@@ -25,13 +25,13 @@ class Circle{
     void setCirclePointY(double y){
         m_x_y.setPointY(y);
     }
-    double getCircleRadius(void){
+    double getCircleRadius(void) const{
         return *m_r;
     }
     Point getCircleXY() const{
         return m_x_y;
     }
-    double area(void){
+    double area(void) const {
         return (M_PI)* *m_r* *m_r;
     }
     ~Circle(){

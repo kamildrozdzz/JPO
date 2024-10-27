@@ -15,20 +15,20 @@ class GlobalClass{
 class LocalClass{
     public:
         LocalClass(){
-            cout << "Constructor of GlobalClass called" << endl;
+            cout << "Constructor of LocalClass called" << endl;
         }
         ~LocalClass(){
-            cout << "Destructor of GlobalClass called" << endl;
+            cout << "Destructor of LocalClass called" << endl;
         }
 };
 
 class BlockClass{
     public:
         BlockClass(){
-            cout << "Constructor of GlobalClass called" << endl;
+            cout << "Constructor of BlockClass called" << endl;
         }
         ~BlockClass(){
-            cout << "Destructor of GlobalClass called" << endl;
+            cout << "Destructor of BlockClass called" << endl;
         }
 };  
 
