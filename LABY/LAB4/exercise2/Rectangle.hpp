@@ -20,11 +20,15 @@ public:
     }
 
     void setA(double a){
-        m_a=a;
+        if(a>=0){
+            m_a=a;
+        }
     }
 
     void setB(double b){
-        m_b=b;
+        if(b>=0){
+            m_b=b;
+        }
     }
 
     double getA(void) const{
