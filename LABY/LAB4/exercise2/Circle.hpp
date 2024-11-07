@@ -18,7 +18,9 @@ class Circle : public Figure{
         }
 
         void setRadius(double radius){
-            m_radius=radius;
+            if(radius>=0){
+                m_radius=radius;
+            }
         }
 
         double getRadius(void) const{
