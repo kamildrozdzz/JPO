@@ -95,7 +95,7 @@ namespace kd{
                 }
 
                 bool operator!=(const ComplexNumber& other) const {
-                    return !((m_real == other.m_real) && (m_imag == other.m_imag));
+                    return !(operator==(other));
                 }
 
                 ComplexNumber& operator=(const ComplexNumber& other) {
